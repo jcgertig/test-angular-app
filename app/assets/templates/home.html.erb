@@ -1,0 +1,12 @@
+<div id="home-page" ng-init="init()">
+  <div class="well">
+    <span ng-repeat="item in items">
+      {{item.name}}
+    </span>
+  </div>
+</div>
+
+<div>
+  <input ng-model="newItem.name" placeholder="Item Name"></input>
+  <button class="btn btn-primary" ng-click="createItem()">Create Item</button>
+</div>

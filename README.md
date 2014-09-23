@@ -1,5 +1,7 @@
 == README
 
-run `bundle`<br>
-run `rake db:migrate`<br>
+run `bundle`
+
+run `rake db:migrate`
+
 run `rake bower:install`
